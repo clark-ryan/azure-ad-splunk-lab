@@ -9,7 +9,7 @@
 ## Steps
 
 1. Set a static IP on the Windows Server VM
-2. Opened Server Manager → Manage → Add Roles and Features
+2. Opened Server Manager, Manage, Add Roles and Features
 3. Selected Active Directory Domain Services (AD DS) and installed
 4. After install, clicked the flag icon → Promote this server to a domain controller
 5. Selected "Add a new Forest" and named the domain clarklabs.local
