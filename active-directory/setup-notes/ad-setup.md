@@ -1,7 +1,7 @@
 # Active Directory Setup
 
 ## Environment
-- OS: Windows Server 2022 (Azure  VM)
+- OS: Windows Server 2022 (Azure VM)
 - Domain: clarklabs.local
 - Domain Controller IP: 192.168.100.5
 - DNS: pointed to DC (192.168.100.5)
