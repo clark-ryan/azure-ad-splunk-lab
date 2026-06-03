@@ -23,7 +23,7 @@
 7. Logged back in; domain prefix on login screen confirmed AD DS was active
 8. Opened Active Directory Users and Computers via Server Manager → Tools
 9. Created two Organizational Units: IT and HR
-10. Created user Jenny Smith (j.smith) under IT and Terry Smith (t.smith) under HR
+10. Created user Jenny Smith (jsmith) under IT and Terry Smith (tsmith) under HR
 11. On the Windows 10 VM, changed DNS to point to the DC (192.168.100.5)
 12. Joined the Windows 10 machine to clarklabs.local using administrator credentials
 13. Restarted and logged in as j.smith to confirm domain authentication worked
