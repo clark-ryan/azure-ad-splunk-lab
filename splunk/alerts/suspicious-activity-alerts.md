@@ -43,7 +43,7 @@ Hydra v9.6 (c) 2023 by van Hauser/THC & David Maciejak
 [ATTEMPT] target 192.168.100.100 - login "jsmith" - pass "ashley" - 20 of 23
 [ATTEMPT] target 192.168.100.100 - login "jsmith" - pass "qwerty" - 21 of 23
 [ATTEMPT] target 192.168.100.100 - login "jsmith" - pass "test.pass@word305" - 22 of 23
-[3389][rdp] host: 192.168.100.100   login: jsmith   password: test.pass@word305
+**`[3389][rdp] host: 192.168.100.100   login: jsmith   password: test.pass@word305`**            <-- Shows the successful attempt 
 1 of 1 target successfully completed, 1 valid password found
 ```
 
@@ -77,8 +77,8 @@ New Logon:
     Account Domain:     CLARKLABS
 
 Network Information:
-    Workstation Name:   kali                        <-- Attacking machine hostname
-    Source Network Address: 192.168.100.254         <-- Attacking machine IP
+    **`Workstation Name:   kali`**                       <-- Attacking machine hostname
+    **`Source Network Address: 192.168.100.254`**         <-- Attacking machine IP
 
 Detailed Authentication Information:
     Authentication Package: NTLM
