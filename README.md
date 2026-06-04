@@ -1,4 +1,4 @@
-# azure-ad-splunk-lab
+# Azure Active Directory Splunk Lab
 
 I simulated an internal corporate network in Microsoft Azure demonstrating Active Directory, Splunk SIEM, identity and access management, and cloud infrastructure.
 
