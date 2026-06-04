@@ -54,7 +54,7 @@ Searched Splunk for EventCode 4624 (successful logon). The log confirmed the att
 ```
 06/03/2026 11:34:52.739 PM
 LogName=Security
-EventCode=4624
+EventCode=4624                                     <-- Successful logon event code
 EventType=0
 ComputerName=target-pc.clarklabs.test
 Keywords=Audit Success
