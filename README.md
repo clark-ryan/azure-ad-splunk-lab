@@ -2,7 +2,7 @@
 
 I simulated an internal corporate network in Microsoft Azure demonstrating Active Directory, Splunk SIEM, identity and access management, and cloud infrastructure.
 
-![Topology](assets/network-diagram.png)
+![Topology](screenshots/network-diagram.png)
 
 The lab models a company's internal network where a domain controller manages users and devices across a private network. All endpoints forward logs to a Splunk SIEM to monitor for unauthorized activity that could compromise the environment. Threat simulation was performed using Kali Linux and Atomic Red Team to validate detections end-to-end.
 
