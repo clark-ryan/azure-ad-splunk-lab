@@ -77,9 +77,6 @@ Detailed Authentication Information:
     Key Length: 128
 ```
 
-> [!NOTE]
-> **Workstation Name: kali** — attacking machine hostname
-> **Source Network Address: 192.168.100.254** — attacking machine IP
 
 ---
 
