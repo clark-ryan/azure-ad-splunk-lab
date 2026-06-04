@@ -10,19 +10,14 @@ The lab models a company's internal network where a domain controller manages us
 
 | Capability | Evidence |
 |---|---|
-| Active Directory | [AD Setup](active-directory/setup-notes/ad-setup.md) — domain controller, OUs, users, domain join |
-| SIEM & Log Management | [Splunk Config](splunk/configs/inputs.conf.example) — Universal Forwarder, Windows Event Logs, Sysmon |
-| Threat Detection | [Alert Rules](splunk/alerts/suspicious-activity-alerts.md) — brute force, account creation, suspicious processes |
-| Attack Simulation | [Attack & Detection](atomic-red-team/attack-simulation.md) — Hydra RDP brute force, Atomic Red Team T1136.001 |
+| Active Directory | [AD Setup](notes/setup-notes/ad-setup.md) — domain controller, OUs, users, domain join |
+| SIEM & Log Management | [Splunk Setup](notes/setup-notes/splunk-setup.md) — Universal Forwarder, Windows Event Logs, Sysmon |
+| Threat Detection | [Alert Rules](splunk-test-alerts/suspicious-activity-alerts.md) — brute force, account creation, suspicious processes |
 | Cloud & Firewall | [Challenges](notes/challenges.md) — Azure NSG rules, port management, DNS troubleshooting |
 
 ## Repository Contents
 
-- [`active-directory/`](active-directory/) — domain controller setup, GPO configuration, users and OUs
-- [`splunk/`](splunk/) — forwarder configs and Splunk detection rules
-- [`atomic-red-team/`](atomic-red-team/) — attack simulation results and Splunk detections
-- [`assets/`](assets/) — network topology diagram and screenshots
+- [`notes/setup-notes/`](notes/setup-notes/) — AD and Splunk setup documentation
+- [`splunk-test-alerts/`](splunk-test-alerts/) — Splunk detection rules and alert configurations
+- [`screenshots/`](screenshots/) — network topology diagram
 - [`notes/`](notes/) — challenges encountered and lessons learned
-
-## License
-[MIT](LICENSE)
